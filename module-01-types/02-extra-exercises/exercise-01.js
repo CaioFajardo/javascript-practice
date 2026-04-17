@@ -46,6 +46,14 @@ function tipoReal(valor) {
         return "nan"
     }
 
+    if (valor instanceof Date) {
+        return "date"
+    }
+
+    if (valor instanceof RegExp) {
+        return "regexp"
+    }
+
     return typeof valor
 }
 
