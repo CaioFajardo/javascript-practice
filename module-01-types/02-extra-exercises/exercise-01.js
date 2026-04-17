@@ -31,7 +31,7 @@ console.log(tipoReal([1, 2, 3]))
 console.log(tipoReal(undefined))
 console.log(tipoReal(NaN))
 
-// Nível 2 (Em progresso...)
+// Nível 2
 
 function tipoReal(valor) {
     if (valor === null) {
