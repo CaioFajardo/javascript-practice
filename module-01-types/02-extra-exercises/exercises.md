@@ -1,4 +1,3 @@
-````md
 # 🧠 Exercícios Extras — Módulo 01 (JavaScript)
 
 > Foco: Tipagem dinâmica, validação de dados e fundamentos do JavaScript
