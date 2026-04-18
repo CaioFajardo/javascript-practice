@@ -99,6 +99,54 @@ A ideia não é estudar tudo de uma vez, mas ir marcando conforme evolui.
 
 ---
 
+## 🔸 9. Tratamento de erros (throw / try / catch)
+
+- [x] Entender o que é `throw`
+- [x] Entender o que é `Error`
+- [x] Diferença entre erro de lógica e erro proposital
+- [x] Usar `try/catch` para capturar erros
+- [ ] Criar funções com modo "strict" (lança erro)
+- [ ] Criar funções com modo "safe" (retorna fallback)
+- [ ] Entender quando usar try/catch dentro vs fora da função
+
+💡 Objetivo: controlar fluxo de erro de forma previsível e profissional
+
+---
+
+## 🔸 10. Padrão: função vs saída (lógica vs exibição)
+
+- [x] Entender diferença entre `return` e `console.log`
+- [ ] Evitar `console.log` dentro de funções de lógica
+- [ ] Criar funções que retornam valores reutilizáveis
+- [ ] Separar lógica de exibição (UI / console)
+
+💡 Objetivo: escrever funções reutilizáveis e desacopladas
+
+---
+
+## 🔸 11. Validação numérica robusta
+
+- [x] Entender `Number()`
+- [x] Entender `NaN`
+- [x] Entender `Number.isFinite`
+- [ ] Diferença entre validação simples vs rígida
+- [ ] Decidir regras de entrada (ex: aceitar "" ou null?)
+
+💡 Objetivo: validar dados de forma consistente e consciente
+
+---
+
+## 🔸 12. Fluxo de execução com erro
+
+- [ ] Entender como o `throw` interrompe o código
+- [ ] Entender que o `try` para no primeiro erro
+- [ ] Testar múltiplos cenários com funções auxiliares
+- [ ] Criar funções para testes automatizados simples
+
+💡 Objetivo: dominar o fluxo real do JavaScript em casos de erro
+
+---
+
 ## 📌 Observações gerais
 
 - Não tentar aprender tudo de uma vez
