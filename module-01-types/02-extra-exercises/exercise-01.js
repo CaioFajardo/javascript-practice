@@ -1,3 +1,8 @@
+/**
+ * Exercício 01 - Tipo real
+ * melhorar identificação de tipos além do typeof
+ */
+
 function printTitulo(titulo) {
     console.log("\n==============================")
     console.log(titulo)
@@ -5,6 +10,7 @@ function printTitulo(titulo) {
 }
 
 // Nível 1
+// tratar casos especiais: null, array e NaN
 
 function tipoReal(valor) {
     if (valor === null) {
@@ -32,6 +38,7 @@ console.log(tipoReal(undefined))
 console.log(tipoReal(NaN))
 
 // Nível 2
+// adiciona suporte pra Date e RegExp   
 
 function tipoReal(valor) {
     if (valor === null) {

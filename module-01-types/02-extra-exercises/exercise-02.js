@@ -1,10 +1,18 @@
+/**
+ * Exercício 02 - Soma segura
+ *
+ * Ideia:
+ * evitar concatenação de string e evoluir tratamento de erro
+ */
+
 function printTitulo(titulo) {
     console.log("\n==============================")
     console.log(titulo)
     console.log("==============================")
 }
 
-// Nível 1
+// NÍVEL 1
+// conversão básica com Number
 
 function somar1(a, b) {
     const numA = Number(a)
@@ -18,7 +26,8 @@ console.log(somar1(10, 10))
 console.log(somar1(10, "10"))
 console.log(somar1("10", "10"))
 
-// Nível 2
+// NÍVEL 2
+// validações simples + fallback
 
 function somar2(a, b) {
     const numA = Number(a)
@@ -47,7 +56,8 @@ console.log(somar2("10", "abc"))
 console.log(somar2(null, 10))
 console.log(somar2(undefined, 5))
 
-// Nível 3
+// NÍVEL 3
+// throw + try/catch
 
 function somar3(a, b) {
     const numA = Number(a)
@@ -80,7 +90,8 @@ console.log(testar("", ""))
 console.log(testar([1, 2, 3], [4, 5, 6]))
 console.log(testar({}, 10))
 
-// Nível 4 - STRICT / SAFE
+// NÍVEL 4
+// modo strict (erro) e safe (fallback)
 
 function somar4(a, b, modo = "strict") {
     const numA = Number(a)
@@ -106,7 +117,6 @@ function somar4(a, b, modo = "strict") {
         return numA + numB
     }
 
-    // fallback se modo for inválido
     return "Modo inválido!"
 }
 
@@ -127,5 +137,4 @@ console.log(somar4(10, 10, "safe"))
 console.log(somar4("10", "abc", "safe"))
 console.log(somar4(null, 10, "safe"))
 
-// modo inválido
 console.log(somar4(10, 10, "qualquerCoisa"))
