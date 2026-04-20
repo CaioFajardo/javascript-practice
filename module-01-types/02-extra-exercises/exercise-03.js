@@ -1,3 +1,17 @@
+/**
+ * Exercício 03 - Validação de CPF
+ * sanitizar entrada e validar formato básico (11 dígitos)
+ */ 
+
+function printTitulo(titulo) {
+   console.log("\n==============================")
+   console.log(titulo)
+   console.log("==============================")
+}
+
+// NÍVEL 1
+// transformar em string e garantir 11 dígitos
+
 function validarCPF(cpf) {
    cpf = String(cpf)
    cpf = cpf.replace(/\D/g, "")
@@ -8,6 +22,8 @@ function validarCPF(cpf) {
 
    return true
 }
+
+printTitulo("NÍVEL 1")
 
 console.log(validarCPF("123.456.789-10"))
 console.log(validarCPF("12345678910"))
