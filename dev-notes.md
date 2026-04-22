@@ -56,7 +56,7 @@ A ideia não é estudar tudo de uma vez, mas ir marcando conforme evolui.
 ## 🔸 5. return vs console.log
 
 - [x] Conceito básico entendido
-- [ ] Aplicar em funções reais
+- [x] Aplicar em funções reais
 - [ ] Entender impacto em funções puras
 - [ ] Separação entre lógica e exibição de dados
 
@@ -66,9 +66,9 @@ A ideia não é estudar tudo de uma vez, mas ir marcando conforme evolui.
 
 ## 🔸 6. Tratamento robusto de tipos
 
-- [ ] Criar validações defensivas
-- [ ] Tratar inputs inesperados
-- [ ] Trabalhar com edge cases
+- [x] Criar validações defensivas
+- [x] Tratar inputs inesperados
+- [x] Trabalhar com edge cases
 - [ ] Criar funções utilitárias (ex: getType, isValid)
 
 💡 Objetivo: código mais seguro e profissional
@@ -85,15 +85,17 @@ A ideia não é estudar tudo de uma vez, mas ir marcando conforme evolui.
 
 💡 Objetivo: validação e manipulação de texto
 
+🟡 Observação: você evitou regex até agora, mas já chegou num ponto onde aprender vai destravar muito
+
 ---
 
 ## 🔸 8. Organização de código
 
-- [ ] Separação de responsabilidades
-- [ ] Funções auxiliares
+- [x] Separação de responsabilidades
+- [x] Funções auxiliares
 - [ ] Estrutura de pastas em projetos
-- [ ] Evitar lógica muito concentrada
-- [ ] Reutilização de código
+- [x] Evitar lógica muito concentrada
+- [x] Reutilização de código
 
 💡 Objetivo: código escalável e fácil de manter
 
@@ -116,8 +118,8 @@ A ideia não é estudar tudo de uma vez, mas ir marcando conforme evolui.
 ## 🔸 10. Padrão: função vs saída (lógica vs exibição)
 
 - [x] Entender diferença entre `return` e `console.log`
-- [ ] Evitar `console.log` dentro de funções de lógica
-- [ ] Criar funções que retornam valores reutilizáveis
+- [x] Evitar `console.log` dentro de funções de lógica
+- [x] Criar funções que retornam valores reutilizáveis
 - [ ] Separar lógica de exibição (UI / console)
 
 💡 Objetivo: escrever funções reutilizáveis e desacopladas
@@ -129,7 +131,7 @@ A ideia não é estudar tudo de uma vez, mas ir marcando conforme evolui.
 - [x] Entender `Number()`
 - [x] Entender `NaN`
 - [x] Entender `Number.isFinite`
-- [ ] Diferença entre validação simples vs rígida
+- [x] Diferença entre validação simples vs rígida
 - [ ] Decidir regras de entrada (ex: aceitar "" ou null?)
 
 💡 Objetivo: validar dados de forma consistente e consciente
@@ -147,6 +149,84 @@ A ideia não é estudar tudo de uma vez, mas ir marcando conforme evolui.
 
 ---
 
+## 🔸 13. Parsing de strings (MUITO IMPORTANTE)
+
+- [x] Entender `parseFloat`
+- [x] Entender `parseInt`
+- [x] Extrair número de string (ex: "40C")
+- [x] Separar número e texto manualmente
+- [ ] Melhorar parsing com casos complexos
+- [ ] Comparar com regex
+
+💡 Objetivo: interpretar inputs reais do usuário
+
+---
+
+## 🔸 14. Manipulação de strings
+
+- [x] trim()
+- [x] toLowerCase()
+- [x] slice()
+- [x] includes()
+- [ ] startsWith / endsWith
+- [ ] replace (importante pra sanitização)
+
+💡 Objetivo: dominar entrada de dados
+
+---
+
+## 🔸 15. Estruturas de dados (objetos como mapa)
+
+- [x] Usar objeto como "mapa" (lookup)
+- [x] Acessar valores dinamicamente
+- [x] Evitar if/else gigante
+- [x] Loop com `for...in`
+
+💡 Objetivo: escrever código mais elegante e escalável
+
+---
+
+## 🔸 16. Modularização / Refatoração
+
+- [x] Separar funções grandes em pequenas
+- [x] Criar funções reutilizáveis
+- [x] Aplicar responsabilidade única (SRP)
+- [ ] Nomear funções melhor (nível profissional)
+
+💡 Objetivo: código profissional de verdade
+
+---
+
+## 🔸 17. Testes (Jest + Testing Library)
+
+- [x] Entender `render`
+- [x] Usar `screen.getByText`
+- [x] Usar `getByRole`
+- [x] Usar `getByLabelText`
+- [x] Assertions (`toBeInTheDocument`, `toBeDisabled`)
+- [x] Assertions negativas (`.not`)
+- [x] `userEvent.click`
+- [x] Mock functions (`jest.fn()`)
+- [x] `toHaveBeenCalledWith`
+- [ ] Melhorar queries (regex vs string)
+- [ ] Cobrir edge cases nos testes
+
+💡 Objetivo: testar comportamento real do usuário
+
+---
+
+## 🔸 18. Git e commits (começando agora)
+
+- [x] Criar commits
+- [x] Push para repositório
+- [ ] Padronizar commits (Conventional Commits)
+- [ ] Commits pequenos e frequentes
+- [ ] Escrever mensagens melhores
+
+💡 Objetivo: histórico profissional
+
+---
+
 ## 📌 Observações gerais
 
 - Não tentar aprender tudo de uma vez
@@ -158,6 +238,8 @@ A ideia não é estudar tudo de uma vez, mas ir marcando conforme evolui.
 
 ## 🚧 Próximos passos sugeridos
 
-- Criar pequenos exercícios para cada tópico
-- Aplicar validação de CPF em um projeto real
-- Começar a refatorar códigos antigos usando essas ideias
+- Terminar níveis restantes do exercício
+- Aprender regex básico
+- Criar funções utilitárias (ex: isValidNumber)
+- Melhorar commits (consistência)
+- Refatorar códigos antigos usando modularização
