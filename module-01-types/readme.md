@@ -30,6 +30,18 @@ Este módulo explora os fundamentos da tipagem no JavaScript, com foco nos tipos
 Exercícios adicionais para aprofundamento:
 
 - [Exercício 01](./02-extra-exercises/exercise-01.js)
+- [Exercício 02](./02-extra-exercises/exercise-02.js)
+- [Exercício 03](./02-extra-exercises/exercise-03.js)
+- [Exercício 04](./02-extra-exercises/exercise-04.js)
+- [Exercício 05](./02-extra-exercises/exercise-05.js)
+- [Exercício 06](./02-extra-exercises/exercise-06.js)
+- [Exercício 07](./02-extra-exercises/exercise-07.js)
+- [Exercício 08](./02-extra-exercises/exercise-08.js)
+- [Exercício 09](./02-extra-exercises/exercise-09.js)
+- [Exercício 10](./02-extra-exercises/exercise-10.js)
+- [Exercício 11](./02-extra-exercises/exercise-11.js)
+- [Exercício 12](./02-extra-exercises/exercise-12.js)
+- [Exercício 13](./02-extra-exercises/exercise-13.js)
 - 📄 [Lista de desafios](./02-extra-exercises/exercises.md)
 
 ---
@@ -54,4 +66,4 @@ Exercícios adicionais para aprofundamento:
 
 ## 🚀 Próximo módulo
 
-➡️ Módulo 02 — Objetos e Arrays
+➡️ [Módulo 02 — Objetos e Arrays](../module-02-objetos-arrays/)
