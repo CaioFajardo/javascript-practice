@@ -5,8 +5,8 @@ const livro = {
     paginas: 310,
 
     descricao() {
-        return `${this.titulo} por ${this.autor} (${this.ano})`;
+        return `${this.titulo} por ${this.autor} (${this.ano})`
     }
-};
+}
 
-console.log(livro.descricao());
+console.log(livro.descricao())
