@@ -65,3 +65,29 @@ printTitulo("NÍVEL 3")
 
 console.log(nomePrimeiroNível3)
 console.log(precoUltimoNível3)
+
+// Nível 4
+
+const produtosNível4 = [
+    { nome: undefined, preco: 10},
+    { nome: "produto 2", preco: 20},
+    { nome: "produto 3", preco: 30},
+    { nome: "produto 4", preco: 40},
+    { nome: "produto 5", preco: undefined}
+]
+
+const [
+    { nome: nomePrimeiroNível4 },
+    ...resto
+] = produtosNível4
+
+const nomeFinalNível4 = nomePrimeiroNível4 ?? "Sem nome"
+
+const { preco: precoUltimoNível4 } = resto[resto.length - 1]
+
+const precoFinalNível4 = precoUltimoNível4 ?? 0
+
+printTitulo("NÍVEL 4")
+
+console.log(nomeFinalNível4)
+console.log(precoFinalNível4)
