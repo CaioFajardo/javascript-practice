@@ -21,3 +21,20 @@ console.log(usuarioNivel1 === copiaNivel1)
 
 console.log(usuarioNivel1.nome === copiaSpreadNivel1.nome)
 console.log(usuarioNivel1 === copiaSpreadNivel1)
+
+// Nível 2
+
+const usuarioNivel2 = {
+    nome: "Caio",
+    endereco: {
+        cidade: "Cataguases"
+    }
+}
+
+const copia = structuredClone(usuarioNivel2)
+
+copia.endereco.cidade = "Leopoldina"
+
+printTitulo("NÍVEL 2")
+
+console.log(usuarioNivel1.endereco === copia.endereco)
