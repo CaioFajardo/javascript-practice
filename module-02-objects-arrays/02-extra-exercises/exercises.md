@@ -178,25 +178,7 @@ Use destructuring para:
 
 ---
 
-## 🧩 12. Verificando tipos
-
-Crie variáveis com:
-
-- array
-- objeto
-- string
-
-Use:
-
-- typeof
-- Array.isArray
-- instanceof
-
-Mostre os resultados e compare.
-
----
-
-## 🧩 13. Objeto com array dentro
+## 🧩 12. Objeto com array dentro
 
 Crie um objeto que contém um array.
 
@@ -207,7 +189,7 @@ Acesse:
 
 ---
 
-## 🧩 14. Array com objetos
+## 🧩 13. Array com objetos
 
 Crie um array de objetos (ex: pessoas).
 
@@ -218,7 +200,7 @@ Acesse:
 
 ---
 
-## 🧩 15. Método dentro de objeto
+## 🧩 14. Método dentro de objeto
 
 Crie um objeto com um método que usa:
 
