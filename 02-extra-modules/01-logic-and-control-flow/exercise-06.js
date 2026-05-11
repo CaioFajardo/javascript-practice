@@ -33,3 +33,29 @@ for (let i = 0; i < 10; i++) {
         console.log(i)
     }
 }
+
+// Nível 2
+
+let soma = 0
+
+for (i = 1; i <= 10; i++) {
+   soma += i 
+}
+
+printTitulo("NÍVEL 2")
+
+console.log(soma)
+
+// Nível 3
+
+let pares = 0
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        pares++
+    }
+}
+
+printTitulo("NÍVEL 3")
+
+console.log(pares)
