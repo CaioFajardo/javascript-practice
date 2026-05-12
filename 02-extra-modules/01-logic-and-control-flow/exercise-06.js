@@ -59,3 +59,19 @@ for (let i = 1; i <= 20; i++) {
 printTitulo("NÍVEL 3")
 
 console.log(pares)
+
+// Nível 4
+
+const numeros = [3, 7, 2, 10, 5]
+
+let maiorNumero = numeros[0]
+
+for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] > maiorNumero) {
+        maiorNumero = numeros[i]
+    }
+}
+
+printTitulo("NÍVEL 4")
+
+console.log(maiorNumero)
