@@ -24,7 +24,7 @@ Agora o foco será:
 
 ## 🎯 Exercícios
 
-### 1️⃣ Comparações básicas
+### 🧩 1. Comparações básicas
 
 Crie variáveis numéricas e faça comparações usando:
 
@@ -46,7 +46,7 @@ Mostre os resultados no console.
 
 ---
 
-### 2️⃣ Truthy e Falsy
+### 🧩 2. Truthy e Falsy
 
 Teste valores como:
 
@@ -66,7 +66,7 @@ Use `if` para descobrir quais valores o JavaScript considera truthy ou falsy.
 
 ---
 
-### 3️⃣ if / else
+### 🧩 3. if / else
 
 Crie validações usando:
 
@@ -83,7 +83,7 @@ Exemplos:
 
 ---
 
-### 4️⃣ Operadores lógicos
+### 🧩 4. Operadores lógicos
 
 Use:
 
@@ -95,7 +95,7 @@ Crie validações combinando múltiplas condições.
 
 ---
 
-### 5️⃣ switch
+### 🧩 5. switch
 
 Crie um sistema simples usando `switch`.
 
@@ -107,7 +107,7 @@ Exemplos:
 
 ---
 
-### 6️⃣ for clássico
+### 🧩 6. for clássico
 
 Crie loops usando:
 
@@ -124,7 +124,7 @@ Teste:
 
 ---
 
-### 7️⃣ while e do while
+### 🧩 7. while e do while
 
 Use:
 
@@ -135,7 +135,7 @@ Compare os comportamentos.
 
 ---
 
-### 8️⃣ break e continue
+### 🧩 8. break e continue
 
 Use:
 
@@ -151,7 +151,7 @@ Entenda:
 
 ---
 
-### 9️⃣ for of
+### 🧩 9. for of
 
 Percorra arrays usando:
 
@@ -167,7 +167,7 @@ for (let i = 0; i < array.length; i++)
 
 ---
 
-### 🔟 for in
+### 🧩 10. for in
 
 Percorra objetos usando:
 
@@ -183,24 +183,7 @@ Object.entries()
 
 ---
 
-### 1️⃣1️⃣ Coerção de tipos
-
-Teste comparações estranhas do JavaScript.
-
-Exemplos:
-
-```js
-[] == false
-0 == false
-"" == false
-null == undefined
-```
-
-Explique os resultados.
-
----
-
-### 1️⃣2️⃣ Validação de dados
+### 🧩 11. Validação de dados
 
 Crie validações reais usando:
 
@@ -211,7 +194,7 @@ Crie validações reais usando:
 
 ---
 
-### 1️⃣3️⃣ Curto-circuito
+### 🧩 12. Curto-circuito
 
 Teste comportamentos usando:
 
@@ -228,7 +211,7 @@ Entenda:
 
 ---
 
-### 1️⃣4️⃣ Mini desafio final
+### 🧩 13. Mini desafio final
 
 Crie um pequeno sistema que:
 
@@ -238,41 +221,3 @@ Crie um pequeno sistema que:
 * usa operadores lógicos
 * usa arrays e objetos
 * mostra mensagens diferentes dependendo das condições
-
----
-
-## 🧪 Dicas gerais
-
-* Teste diferentes entradas
-* Faça validações reais
-* Compare comportamentos
-* Tente prever o resultado antes do `console.log`
-* Observe quando o JavaScript faz coerção automática
-
----
-
-## 🚀 Objetivo
-
-Ao finalizar este módulo, você deve ser capaz de:
-
-* controlar fluxo de execução
-* criar validações mais seguras
-* entender truthy e falsy
-* interpretar coerção de tipos
-* escolher estruturas de repetição corretamente
-* evitar bugs comuns de comparação
-
----
-
-## 📌 Observação
-
-O objetivo deste módulo NÃO é decorar sintaxe.
-
-O foco é entender:
-
-* comportamento
-* interpretação do JavaScript
-* diferenças entre abordagens
-* bugs comuns
-* tomada de decisão
-* legibilidade
