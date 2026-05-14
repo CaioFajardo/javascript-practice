@@ -1,11 +1,3 @@
-function printTitulo(titulo) {
-    console.log("\n==============================")
-    console.log(titulo)
-    console.log("==============================")
-}
-
-// Nível 1
-
 function retornaCopia(array) {
 
     const copia = []
