@@ -12,4 +12,6 @@ function adicionarItem(lista, item) {
     return listaCopia
 }
 
+printTitulo("NÍVEL 1")
+
 console.log(adicionarItem([1, 2, 3], 4))
