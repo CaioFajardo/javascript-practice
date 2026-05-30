@@ -6,7 +6,9 @@ function printTitulo(titulo) {
 
 // Nível 1
 
-function retry(fn) {
+printTitulo("NÍVEL 1")
+
+function retryNivel1(fn) {
 
     for (let i = 0; i < 3; i++) {
 
@@ -23,7 +25,7 @@ function retry(fn) {
     return "Falhou"
 }
 
-const resultado = retry(() => {
+const resultadoNivel1 = retryNivel1(() => {
 
     if (Math.random() > 0.5) {
         return "OK"
@@ -32,6 +34,37 @@ const resultado = retry(() => {
     throw new Error("Erro")
 })
 
-printTitulo("NÍVEL 1")
+console.log(resultadoNivel1)
 
-console.log(resultado)
+// Nível 2
+
+function retryNivel2(fn, tentativas) {
+
+    for (let i = 0; i < tentativas; i++) {
+
+        try {
+            return {
+                resultado: fn(),
+                tentativa: i + 1
+            }
+        }
+
+        catch {
+            console.log(`Tentativa ${i + 1} falhou`)
+        }
+
+    }
+
+    return "Falhou"
+}
+
+const resultadoNivel2 = retryNivel2(() => {
+
+    if (Math.random() > 0.5) {
+        return "OK"
+    }
+
+    throw new Error("Erro")
+}, 5)
+
+console.log(resultadoNivel2)
